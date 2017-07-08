@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include includes/default_meta.ejs %>
+    <% include includes/title.ejs %>
+    <% include includes/favicon.ejs %>
+    <% include includes/default_css.ejs %>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a>
+            </li>
+            <li class="active">404</li>
+        </ol>
+        <div style="text-align: center;">
+            <img src="img/sad.png"/>
+            <h1>404. <small>That’s an error.</small></h1>
+            <p>The requested URL was not found on this server.</p>
+        </div>
+    </div>
+    <% include includes/default_footer.ejs %>
+</div>
+</body>
+</html>
