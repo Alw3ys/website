@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 
 require('./routes')(app);
 
-var port = 80;
+var port = 3000;
 app.listen(port, function () {
     console.log('[%s INFO]: Starting Node server on *:%s', dateUtils.getCurrentFormattedTime(), port)
 });
